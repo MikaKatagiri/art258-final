@@ -4,9 +4,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 470px;
 
   .logo {
-    width: 350px;
+    width: 160px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
   }
 
   ul {
@@ -14,12 +17,12 @@
     margin: 0;
   }
 
-  ul li {
+  li {
     list-style: none;
     margin-left: 1rem;
   }
 
-  ul li a {
+  a {
     text-decoration: none;
     font-family: futura;
     color: white;
@@ -28,7 +31,7 @@
   h1 {
     font-family: baskerville;
     font-weight: bolder;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-bottom: 0;
     font-size: 2.1rem;
     color: #214d93;
@@ -37,16 +40,17 @@
   p {
     font-family: futura;
     margin-top: 0.4rem;
-    margin-bottom: 2.5rem;
     color: #214d93;
   }
 
   button {
     color: #214d93;
     font-size: 0.8rem;
-    padding: 1rem 2.3rem;
+    padding: 0.6rem 1.5rem;
     font-family: futura;
-    background-color: #f0c8bd;
-    border: white;
+    background: none;
+    border: 2px solid #214d93;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
   }
 }

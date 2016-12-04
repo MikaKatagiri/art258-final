@@ -1,0 +1,22 @@
+.footer {
+  background-color: #81807f;
+  display: flex;
+
+  ul {
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    font-family: futura;
+    font-size: 0.7rem;
+  }
+
+  li {
+    list-style: none;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

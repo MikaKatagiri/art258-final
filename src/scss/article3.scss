@@ -1,0 +1,40 @@
+.article3 {
+  text-align: center;
+  background-image: url("../images/fruits.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+
+  h2 {
+    font-size: 1rem;
+    color: #686766;
+    font-family: baskerville;
+  }
+
+  p {
+    font-size: 0.4rem;
+    color: #686766;
+    font-family: futura;
+  }
+
+  button {
+    color: #686766;
+    font-size: 0.6rem;
+    padding: 0.4rem 1.2rem;
+    font-family: futura;
+    background: none;
+    border: 2px solid #686766;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    padding-top: 3rem;
+    margin-left: 14rem;
+  }
+}
