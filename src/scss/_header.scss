@@ -1,0 +1,52 @@
+.header {
+  text-align: center;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .logo {
+    width: 350px;
+  }
+
+  ul {
+    display: flex;
+    margin: 0;
+  }
+
+  ul li {
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  ul li a {
+    text-decoration: none;
+    font-family: futura;
+    color: white;
+  }
+
+  h1 {
+    font-family: baskerville;
+    font-weight: bolder;
+    margin-top: 7rem;
+    margin-bottom: 0;
+    font-size: 2.1rem;
+    color: #214d93;
+  }
+
+  p {
+    font-family: futura;
+    margin-top: 0.4rem;
+    margin-bottom: 2.5rem;
+    color: #214d93;
+  }
+
+  button {
+    color: #214d93;
+    font-size: 0.8rem;
+    padding: 1rem 2.3rem;
+    font-family: futura;
+    background-color: #f0c8bd;
+    border: white;
+  }
+}
