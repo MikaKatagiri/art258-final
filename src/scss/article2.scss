@@ -67,3 +67,14 @@
     }
   }
 }
+
+@media (min-width: 900px) {
+  .article2 {
+    height: 502px;
+    text-align: left;
+
+    .container {
+      margin-left: 5rem;
+    }
+  }
+}

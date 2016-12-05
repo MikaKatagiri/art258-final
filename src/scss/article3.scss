@@ -67,3 +67,15 @@
     }
   }
 }
+
+@media (min-width: 900px) {
+  .article3 {
+    height: 502px;
+    text-align: left;
+
+    .container {
+      float: right;
+      margin-right: 4rem;
+    }
+  }
+}

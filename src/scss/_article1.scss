@@ -67,3 +67,37 @@
     }
   }
 }
+
+@media (min-width: 900px) {
+  .article1 {
+    height: 502px;
+    text-align: left;
+
+    .container {
+      padding-top: 7rem;
+      margin-left: 43rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 0.85rem;
+      margin-top: 0;
+      padding-top: 0.9rem;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .article1 {
+    height: 502px;
+    text-align: left;
+
+    .container {
+      padding-top: 7rem;
+      margin-left: 49rem;
+    }
+  }
+}
