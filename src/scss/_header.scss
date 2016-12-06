@@ -113,3 +113,26 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .header {
+    height: 1164px;
+
+    .logo {
+      margin-top: 12rem;
+    }
+
+    ul {
+      margin-left: 11rem;
+    }
+
+    ul li {
+      margin-left: 8rem;
+    }
+
+    h1 {
+      margin-top: 22rem;
+      margin-right: 47rem;
+    }
+  }
+}
