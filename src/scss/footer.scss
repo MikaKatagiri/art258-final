@@ -20,3 +20,16 @@
     color: white;
   }
 }
+
+@media (min-width: 1200px) {
+  .footer {
+    height: 500px;
+
+    ul {
+      font-size: 1rem;
+      line-height: 2rem;
+      margin-top: 5rem;
+      margin-left: 4rem;
+    }
+  }
+}

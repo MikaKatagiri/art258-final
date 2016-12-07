@@ -101,3 +101,23 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .article1 {
+    height: 702px;
+    text-align: left;
+
+    .container {
+      padding-top: 12rem;
+      margin-left: 60rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}

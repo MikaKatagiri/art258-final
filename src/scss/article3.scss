@@ -79,3 +79,24 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .article3 {
+    height: 702px;
+    text-align: left;
+
+    .container {
+      float: right;
+      margin-right: 6rem;
+      margin-top: 7rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
