@@ -48,12 +48,109 @@
   }
 }
 
+@media (min-width: 900px) {
+  .about {
+    display: flex;
+
+    .container {
+      margin-top: 5rem;
+      margin-left: 2rem;
+    }
+
+    .jessica {
+      width: 350px;
+      margin-top: 3rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-left: 2rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+      margin-left: 2rem;
+    }
+
+    h4 {
+      font-size: 1.3rem;
+      margin-left: 16rem;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .about {
+    display: flex;
+
+    .container {
+      margin-top: 5rem;
+      margin-left: 2rem;
+    }
+
+    .jessica {
+      width: 350px;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-left: 3rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      margin-left: 3rem;
+    }
+
+    h4 {
+      font-size: 1.3rem;
+      margin-left: 20rem;
+    }
+  }
+}
+
+@media (min-width: 1050px) {
+  .about {
+    display: flex;
+
+    .container {
+      margin-top: 5rem;
+      margin-left: 4rem;
+    }
+
+    .jessica {
+      width: 350px;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-left: 3rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      margin-left: 3rem;
+    }
+
+    h4 {
+      font-size: 1.3rem;
+      margin-left: 20rem;
+    }
+  }
+}
+
 @media (min-width: 1200px) {
   .about {
     display: flex;
 
     .container {
-      margin-left: 3rem;
+      margin-top: 5rem;
+      margin-left: 2rem;
     }
 
     .jessica {
@@ -64,12 +161,44 @@
 
     h3 {
       font-size: 1.7rem;
-      margin-left: 9rem;
+      margin-left: 5rem;
     }
 
     p {
       font-size: 1rem;
-      margin-left: 9rem;
+      margin-left: 5rem;
+    }
+
+    h4 {
+      font-size: 1.3rem;
+      margin-left: 33rem;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .about {
+    display: flex;
+
+    .container {
+      margin-top: 5rem;
+      margin-left: 2rem;
+    }
+
+    .jessica {
+      width: 400px;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+      margin-left: 5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-left: 5rem;
     }
 
     h4 {
