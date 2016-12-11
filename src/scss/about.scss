@@ -32,18 +32,92 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 412px) {
   .about {
-    display: flex;
-
     .container {
       display: inline-block;
-      margin-bottom: 5rem;
-      margin-left: 3.5rem;
+    }
+
+    h3 {
+      margin-left: 1rem;
+    }
+
+    p {
+      margin-left: 1rem;
     }
 
     .jessica {
-      margin-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 4rem;
+      margin-left: 1rem;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .about {
+    .container {
+      display: inline-block;
+    }
+
+    h3 {
+      margin-left: 5rem;
+    }
+
+    p {
+      margin-left: 5rem;
+    }
+
+    .jessica {
+      margin-top: 0;
+      margin-bottom: 4rem;
+      margin-left: 4rem;
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .about {
+    .container {
+      display: inline-block;
+      margin-left: 9rem;
+    }
+
+    h3 {
+      margin-left: 3rem;
+    }
+
+    p {
+      margin-left: 3rem;
+    }
+
+    .jessica {
+      margin-top: 0;
+      margin-bottom: 4rem;
+      margin-left: 2rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    .container {
+      display: inline-block;
+      margin-left: 9rem;
+    }
+
+    h3 {
+      margin-left: 5rem;
+    }
+
+    p {
+      margin-left: 5rem;
+    }
+
+    .jessica {
+      margin-top: 0;
+      margin-bottom: 4rem;
+      margin-left: 5rem;
     }
   }
 }
@@ -54,28 +128,29 @@
 
     .container {
       margin-top: 5rem;
-      margin-left: 2rem;
+      margin-left: 0;
     }
 
     .jessica {
       width: 350px;
       margin-top: 3rem;
       margin-bottom: 2.5rem;
+      margin-left: 0;
     }
 
     h3 {
       font-size: 1.5rem;
-      margin-left: 2rem;
+      margin-left: 5rem;
     }
 
     p {
       font-size: 0.7rem;
-      margin-left: 2rem;
+      margin-left: 5rem;
     }
 
     h4 {
       font-size: 1.3rem;
-      margin-left: 16rem;
+      margin-left: 20rem;
     }
   }
 }
@@ -171,12 +246,12 @@
 
     h4 {
       font-size: 1.3rem;
-      margin-left: 33rem;
+      margin-left: 30rem;
     }
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
   .about {
     display: flex;
 
@@ -203,7 +278,7 @@
 
     h4 {
       font-size: 1.3rem;
-      margin-left: 33rem;
+      margin-left: 30rem;
     }
   }
 }
