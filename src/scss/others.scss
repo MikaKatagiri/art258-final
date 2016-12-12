@@ -23,3 +23,22 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (min-width: 750px) {
+  .gold {
+    padding-top: 0;
+
+    .container {
+      display: flex;
+      margin: 5rem;
+    }
+
+    .container img {
+      width: 95%;
+    }
+
+    h2 {
+      font-size: 0.9rem;
+    }
+  }
+}
