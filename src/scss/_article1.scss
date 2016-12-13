@@ -121,3 +121,15 @@
     }
   }
 }
+
+@media (min-width: 1430px) {
+  .article1 {
+    height: 702px;
+    text-align: left;
+
+    .container {
+      padding-top: 12rem;
+      margin-left: 60rem;
+    }
+  }
+}
