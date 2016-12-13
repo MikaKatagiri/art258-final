@@ -122,6 +122,15 @@
   }
 }
 
+@media (min-width: 850px) {
+  .about {
+    .container {
+      display: inline-block;
+      margin-left: 12rem;
+    }
+  }
+}
+
 @media (min-width: 900px) {
   .about {
     display: flex;
