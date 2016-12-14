@@ -13,9 +13,9 @@
   }
 
   p {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     color: #686766;
-    font-family: futura;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   button {
@@ -80,7 +80,23 @@
   }
 }
 
-@media (min-width: 1430px) {
+@media (min-width: 1200px) {
+  .article3 {
+    .container {
+      margin-right: 4rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
   .article3 {
     height: 702px;
     text-align: left;
